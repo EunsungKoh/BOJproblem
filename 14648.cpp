@@ -2,10 +2,11 @@
 #include <cstdio>
 
 using namespace std;
-int m, n, i, j, temp=0, temp2=0;
+int m, n, i, j;
+long long temp=0, temp2=0;
 int a, b, c, d;
 int number[1001];
-int result[10001];
+long long result[10001];
 int query[10001][5];
 int main (){
   scanf("%d %d", &m,&n );
@@ -16,7 +17,7 @@ int main (){
   }
 
   for( i=1; i <= n; i++){
-    scanf("%d",&temp);
+    scanf("%lld",&temp);
     
     if (temp==1) {
       temp=0;
@@ -55,7 +56,7 @@ int main (){
 
   for( i = 1; i <= n; i++)
   {
-    printf("%d\n",result[i]);
+    printf("%lld\n",result[i]);
   }
 
 }
