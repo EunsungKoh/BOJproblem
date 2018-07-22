@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdio>
-
 using namespace std;
 int m, n, i, j;
 long long temp=0, temp2=0;
@@ -48,12 +47,8 @@ int main (){
       result[i]=temp;
 
     }
-    
-    
   }
   
-
-
   for( i = 1; i <= n; i++)
   {
     printf("%lld\n",result[i]);
