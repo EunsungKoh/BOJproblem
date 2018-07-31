@@ -28,7 +28,8 @@ int main(){
   // 	}
   // }
 
-  // cout<<endl;
+  //나는 테스트중이다
+  
   // if (total.find(make_pair(0,0)) == total.end())
   //   cout<<"0,0 없음"<<total.find(make_pair(0,0))->second<<endl;
   // else
