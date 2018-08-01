@@ -1,39 +1,27 @@
-//걷다보니 신천역 삼 (Small)
+//걷다보니 신천역 삼 (Small) (완성)
 #include <iostream>
 #include <cstdio>
-#include <vector>
-#include <algorithm>
-#include <queue>
-
+#include <math.h>
 using namespace std;
 
-int check[1001];
-vector<int> vc[1001];
-
-int N,total=0, temp=0;
-int numbers[10]={1,2,3,4,5};
-int i,j,k;
-
-void search (int level){
-  
-  if (level>1) {
-    search(level -1);
-    for(int i = level ; i<=N;i++){
-      numbers[i]=0;
-    }
+int number;
+int threshold;
+int answer=0;
+void gogo(int loc, int n, int total){
+  if (loc==number) return ;
+  if (loc ==number-1 && total>threshold && total%3==0){
+    // cout << loc << ", "<< n<<" total ="<<total<<endl;
+    answer++;
   }
-  // nubmers[N-level]
-
-  printf("nubmers[N-%d] = %d\n" ,level,numbers[N-level]);
-
-  return ;
+  gogo(loc+1, 0, total*10+0);
+  gogo(loc+1, 1, total*10+1);
+  gogo(loc+1, 2, total*10+2);
 }
-int main() {
-  scanf("%d" , &N );
-  
-  search(N);
+int main (){
+  cin>>number;
+  threshold=pow(10,number-1);
+  number++;
+  gogo(0,0,0);
+  cout<<answer;
 
-
-  // printf("%d",total);
-  return 0;
-} 
+}
