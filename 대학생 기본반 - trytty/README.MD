@@ -1,1 +1,0 @@
-# https://www.acmicpc.net/workbook/view/2047
