@@ -1,4 +1,4 @@
-//조교는 새디스트야!! (완료)
+//조교는 새디스트야!! (성공)
 #include <cstdio>
 #include <iostream>
  

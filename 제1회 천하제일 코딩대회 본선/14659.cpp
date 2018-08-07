@@ -1,4 +1,4 @@
-//한조서열정리하고옴ㅋㅋ (완료)
+//한조서열정리하고옴ㅋㅋ (성공)
 #include <cstdio>
 #include <iostream>
 
