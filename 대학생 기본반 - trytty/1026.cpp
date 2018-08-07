@@ -1,3 +1,4 @@
+// 보물 (성공)
 #include <cstdio>
 #include <algorithm>
 #include <vector>
@@ -28,15 +29,6 @@ int main (){
   }
   printf("%d\n",total);
 
-  // do{
-  //   total=0;
-  //   for (int i =0; i<N;i++){
-  //     total+= v1[i]*v2[i];
-  //   }
-  //   if (total<small) small =total;
-  // }while (next_permutation(v1.begin(),v1.end()));
-  
-  // printf("%d\n",small);
 
   return 0;
 }
