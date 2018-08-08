@@ -12,9 +12,14 @@ https://www.acmicpc.net/problem/
 
 ex)https://www.acmicpc.net/problem/14650
 
+프로그램의 속도 개선을 위해서 cstdio를 주로 사용하려 했습니다.
+
+하지만, 속도가 크게 중요하지 않은 문제에서는 iostream을 사용하기도 했습니다. 
+
 ## History
 ~ July 22, 2018 : 선린 인터넷 고등학교 제1회 천하제일 코딩대회 예선
 
 July 22, 2018 ~ : 선린 인터넷 고등학교 제1회 천하제일 코딩대회 본선
 
 Aug 6, 2018 ~ : 대학생 기본반 - trytty
+
