@@ -1,4 +1,4 @@
-//암호 만들기
+//암호 만들기 (실패)
 #include <cstdio>
 #include <vector>
 #include <algorithm>
