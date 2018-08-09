@@ -1,4 +1,5 @@
-//암호만들기
+//암호만들기 (성공)
+//http://www.crocus.co.kr/705 참고
 #include <cstdio>
 #include <algorithm>
 #include <string>
