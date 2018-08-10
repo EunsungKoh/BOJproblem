@@ -25,10 +25,11 @@ int main(){
 	for(int i=0; i<N;i++){
 		if(count(bb.begin(),bb.end(),dd[i])) total++; 
 	}
-	cout<<total<<endl;
+
+	cout<<total<<"\n";
 	for(int i=0; i<N;i++){
 		if(count(bb.begin(),bb.end(),dd[i]))
-			cout<<dd.at(i)<<endl;
+			cout<<dd[i]<<"\n";
 	}
 	return 0;
 }
