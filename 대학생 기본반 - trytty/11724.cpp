@@ -28,7 +28,7 @@ int main(){
   }
 
   for(int i=1; i<=N;i++){
-    cout<<i<<"번째 노드에 연결된 노드 갯수 = "<<node[i].size()<<endl;
+    cout<<i<<"번째 노드에서 출발하는 엣지 갯수 = "<<(int)(node[i].size())-1<<endl;
   }
   return 0;
 }
