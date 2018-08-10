@@ -14,7 +14,7 @@ void dfs(int now){
 }
 int main (){
   cin>>N>>M;
-  for(int i =0; i<M; i++){
+  for(int i =1; i<=M; i++){
     cin>>temp1>>temp2;
     edge[temp1][temp2]=true;
     edge[temp2][temp1]=true;
@@ -27,6 +27,5 @@ int main (){
     }
   }
   cout<<"총 "<<total<<"개의 연결요소가 존재합니다."<<endl;
-  cout<<total;
   return 0;
 }
