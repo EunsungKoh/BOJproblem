@@ -1,4 +1,4 @@
-//일곱 난쟁이(진행중)
+//일곱 난쟁이(실패)
 #include <iostream>
 #include <vector>
 #include <algorithm>
