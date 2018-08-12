@@ -1,4 +1,4 @@
-//일곱 난쟁이 - bruteforce
+//일곱 난쟁이 - bruteforce (성공)
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -12,11 +12,11 @@ int main (){
   }
 
   do{    
+    temp=0;
     for(int i = 0; i <7; i ++){
       temp+=nj[i];
     }    
     if(temp == 100) break;
-    else temp=0;
   }while (next_permutation(nj.begin(),nj.end()));
   sort(nj.begin(),nj.begin()+7);
   for(int i = 0;i <7; i++){
