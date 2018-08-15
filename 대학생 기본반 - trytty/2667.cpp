@@ -1,4 +1,4 @@
-//단지번호 붙이기 (틀림)
+//단지번호 붙이기 (성공)
 #include <cstdio>
 #include <iostream>
 #include <vector>
