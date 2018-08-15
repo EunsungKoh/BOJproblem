@@ -8,7 +8,7 @@ using namespace std;
 int N,danji=0;
 bool apart[25][25]={false};
 bool visit[25][25]={false};
-int howmany[25]={0};
+int howmany[625]={0};
 vector < pair < int,int > > v;
 void gogo(int x,int y){
   visit[x][y]=true;
